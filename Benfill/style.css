@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #6461ee, #29c1de);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 30px 70px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header p,
+.header div {
+    display: inline;
+    margin: 0;
+}
+
+.header div {
+    color: rgb(226, 224, 221);
+}
+
+.header p {
+    padding: 5px;
+    font-size: 12px;
+    padding-right: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.title p {
+    font-size: 13px;
+}
+
+.pages {
+    float: right;
+}
+
+.header p:hover {
+    color: rgb(255, 255, 255);
+}
+
+.start_btn {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 105px;
+    height: 30px;
+    color: rgb(223, 222, 222);
+    margin-left: 20px;
+}
+
+.start_btn:hover {
+    background-color: rgb(6, 123, 156);
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.description {
+    width: 100%;
+}
+
+.desc_title {
+    font-weight: bold;
+}
+
+.desc_text {
+    font-size: 12px;
+}
+
+.price_btn {
+    background-color: rgb(49, 188, 49);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 20px;
+    color: rgb(234, 222, 222);
+    font-size: 12px;
+}
+
+.form {
+    display: grid;
+    background-color: white;
+    color: black;
+    box-shadow: 10px 1 10px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    padding: 0 50px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+    height: auto; /* Removed fixed height */
+}
+
+input[type="text"],
+input[type="email"],
+input[list="cars"],
+button[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: rgb(227, 227, 227);
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    display: block;
+    align-content: center;
+    cursor: pointer;
+    padding: 5px 80px;
+    border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+  }
+  .white {
+    background-color: ;
+  }
