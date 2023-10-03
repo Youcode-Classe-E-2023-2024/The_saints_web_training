@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(to right, #6461ee, #29c1de);
     color: rgb(255, 255, 255);
     margin: 0;
@@ -51,35 +51,43 @@ button {
 }
 
 .start_btn:hover {
-    background-color: rgb(6, 123, 156);
-    color: rgb(255, 255, 255);
+    background-color: rgb(250, 239, 239);
+    color: rgb(0, 0, 0);
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    text-align: center;
     margin-top: 150px;
+    padding: 70px 0;
+    justify-content: center;
 }
 
 .description {
-    width: 100%;
+    width: 30%;
 }
 
 .desc_title {
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .desc_text {
     font-size: 12px;
 }
 
+.price_btn:hover {
+    background-color: rgb(46, 197, 97);
+    box-shadow: 0 0 7px rgb(101, 209, 68);
+}
+
 .price_btn {
-    background-color: rgb(49, 188, 49);
+    background-color: rgb(49, 216, 105);
+    box-shadow: 0 0 6px rgb(101, 209, 68);
     border: none;
     border-radius: 10px;
-    padding: 7px 20px;
-    color: rgb(234, 222, 222);
+    padding: 9px 35px;
+    color: rgb(235, 235, 235);
     font-size: 12px;
 }
 
@@ -87,12 +95,12 @@ button {
     display: grid;
     background-color: white;
     color: black;
-    box-shadow: 10px 1 10px rgba(0, 0, 0, 0.2);
-    margin-left: 100px;
-    padding: 0 50px;
+    box-shadow: 10px 1 10px rgba(0, 0, 0, 0.61);
+    margin-left: 200px;
+    padding: 0 45px;
     padding-bottom: 0px;
     border-radius: 7px;
-    height: auto; /* Removed fixed height */
+    height: auto;
 }
 
 input[type="text"],
@@ -102,13 +110,14 @@ button[type="submit"] {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
-    border: 1px solid #ccc;
-    background-color: rgb(227, 227, 227);
+    border: 0;
+    background-color: rgb(245, 245, 245);
 }
 
 button[type="submit"] {
-    background-color: #007BFF;
-    color: white;
+    box-shadow: 0 0 5px #268efd;
+    background-color: #268efd;
+    color: rgb(233, 233, 233);
     border: none;
     display: block;
     align-content: center;
@@ -118,7 +127,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #1c7ee7;
+    box-shadow: 0 0 5px #1383fa;
 }
 
 .vertical-center {
@@ -128,5 +138,5 @@ button[type="submit"]:hover {
     margin-top: 2px;
   }
   .white {
-    background-color: ;
+    background-color: white;
   }
